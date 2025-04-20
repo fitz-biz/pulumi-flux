@@ -22,7 +22,7 @@ builds:
       - -X github.com/oun/pulumi-flux/provider/pkg/version.Version={{.Tag }}
     main: ./cmd/pulumi-resource-flux/
 changelog:
-  skip: true
+  disable: true
 release:
   disable: false
   prerelease: auto
