@@ -2,7 +2,7 @@ PROJECT_NAME := flux Package
 
 SHELL            := /bin/bash
 PACK             := flux
-ORG              := oun
+ORG              := fitz-biz
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}
