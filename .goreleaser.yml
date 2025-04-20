@@ -19,7 +19,7 @@ builds:
       - linux
     ldflags:
       # The line below MUST align with the module in current provider/go.mod
-      - -X github.com/oun/pulumi-flux/provider/pkg/version.Version={{.Tag }}
+      - -X github.com/fitz-biz/pulumi-flux/provider/pkg/version.Version={{.Tag }}
     main: ./cmd/pulumi-resource-flux/
 changelog:
   disable: true

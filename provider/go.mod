@@ -1,4 +1,4 @@
-module github.com/oun/pulumi-flux/provider
+module github.com/fitz-biz/pulumi-flux/provider
 
 go 1.20
 

@@ -16,7 +16,7 @@ package main
 
 import (
 	"github.com/pulumi/pulumi-terraform-bridge/pf/tfgen"
-	flux "github.com/oun/pulumi-flux/provider"
+	flux "github.com/fitz-biz/pulumi-flux/provider"
 )
 
 func main() {

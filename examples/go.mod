@@ -1,4 +1,4 @@
-module github.com/oun/pulumi-flux/examples
+module github.com/fitz-biz/pulumi-flux/examples
 
 go 1.16
 

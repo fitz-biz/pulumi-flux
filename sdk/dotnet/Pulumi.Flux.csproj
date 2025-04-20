@@ -7,7 +7,7 @@
     <Description>A Pulumi package for creating and managing Flux cloud resources.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://www.pulumi.com</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/oun/pulumi-flux</RepositoryUrl>
+    <RepositoryUrl>https://github.com/fitz-biz/pulumi-flux</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
 
     <TargetFramework>net6.0</TargetFramework>

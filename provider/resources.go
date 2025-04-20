@@ -21,7 +21,7 @@ import (
 
 	pf "github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	"github.com/oun/pulumi-flux/provider/pkg/version"
+	"github.com/fitz-biz/pulumi-flux/provider/pkg/version"
     "github.com/fluxcd/terraform-provider-flux/shim"
 )
 
@@ -72,7 +72,7 @@ func Provider() pf.ProviderInfo {
 		// PluginDownloadURL is an optional URL used to download the Provider
 		// for use in Pulumi programs
 		// e.g https://github.com/org/pulumi-provider-name/releases/
-		PluginDownloadURL: "github://api.github.com/oun",
+		PluginDownloadURL: "github://api.github.com/fitz-biz",
 		Description:       "A Pulumi package for creating and managing Flux cloud resources.",
 		// category/cloud tag helps with categorizing the package in the Pulumi Registry.
 		// For all available categories, see `Keywords` in
@@ -80,7 +80,7 @@ func Provider() pf.ProviderInfo {
 		Keywords:   []string{"pulumi", "flux", "category/cloud"},
 		License:    "Apache-2.0",
 		Homepage:   "https://www.pulumi.com",
-		Repository: "https://github.com/oun/pulumi-flux",
+		Repository: "https://github.com/fitz-biz/pulumi-flux",
 		// The GitHub Org for the provider - defaults to `terraform-providers`. Note that this
 		// should match the TF provider module's require directive, not any replace directives.
 		GitHubOrg: "fluxcd",
@@ -140,7 +140,7 @@ func Provider() pf.ProviderInfo {
 		},
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
-				fmt.Sprintf("github.com/oun/pulumi-%[1]s/sdk/", mainPkg),
+				fmt.Sprintf("github.com/fitz-biz/pulumi-%[1]s/sdk/", mainPkg),
 				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				mainPkg,

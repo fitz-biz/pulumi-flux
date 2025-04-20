@@ -34,7 +34,7 @@ pip install pulumi-flux
 To use from Go, use `go get` to grab the latest version of the library:
 
 ```bash
-go get github.com/oun/pulumi-flux/sdk/go/...
+go get github.com/fitz-biz/pulumi-flux/sdk/go/...
 ```
 
 ### .NET
@@ -47,7 +47,7 @@ dotnet add package Pulumi.Flux
 
 ## Examples
 
-Find working Python code samples in the [`./examples`](https://github.com/oun/pulumi-flux/tree/main/examples) directory.
+Find working Python code samples in the [`./examples`](https://github.com/fitz-biz/pulumi-flux/tree/main/examples) directory.
 
 ## Reference
 

@@ -21,7 +21,7 @@ import (
 	_ "embed"
 
 	"github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge"
-	flux "github.com/oun/pulumi-flux/provider"
+	flux "github.com/fitz-biz/pulumi-flux/provider"
 )
 
 //go:embed schema-embed.json

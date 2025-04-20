@@ -1,4 +1,4 @@
-module github.com/oun/pulumi-flux/sdk
+module github.com/fitz-biz/pulumi-flux/sdk
 
 go 1.17
 

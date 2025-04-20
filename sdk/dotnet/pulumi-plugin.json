@@ -1,5 +1,5 @@
 {
   "resource": true,
   "name": "flux",
-  "server": "github://api.github.com/oun"
+  "server": "github://api.github.com/fitz-biz"
 }
